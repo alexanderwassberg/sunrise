@@ -1,0 +1,40 @@
+.todo_form {
+  display: flex;
+  gap: 0.5rem;
+
+  input,
+  button {
+    border: 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+  }
+
+  .todo_input {
+    width: 100%;
+  }
+
+  .todo_add {
+    cursor: pointer;
+    white-space: nowrap;
+  }
+}
+
+.todo_list {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255, 0.6);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+}

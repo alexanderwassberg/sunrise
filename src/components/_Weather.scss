@@ -1,0 +1,36 @@
+.weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img.weather_icon {
+    width: 75px;
+    height: inherit;
+  }
+
+  .weather_time_place {
+    display: flex;
+    flex-flow: column;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  ul.weather_values {
+    display: flex;
+    flex-flow: column;
+    padding: 0.5rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      span {
+        font-size: 0.88rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
